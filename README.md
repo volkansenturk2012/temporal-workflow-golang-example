@@ -15,6 +15,6 @@ cd /var/www/temporal-workflow-golang-example<br />
 go run client/main.go<br />
 
 <h1>Postman collection</h1>
-And after these steps; run requests in postman collection <br />
+And after these steps; import postman collection where in the postman-collection directory and then run requests in postman collection <br />
 Step1 : http://127.0.0.1:3310/start-workflow <br />
 Step2 : http://127.0.0.1:3310/send-signal/{workflow-id}
