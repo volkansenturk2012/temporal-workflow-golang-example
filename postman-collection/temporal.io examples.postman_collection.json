@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "deb8b505-cb37-4de3-8ae8-4c196969f2d6",
+		"name": "temporal.io examples",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26958"
+	},
+	"item": [
+		{
+			"name": "coffee-shop",
+			"item": [
+				{
+					"name": "Start Workflow",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3310/start-workflow",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3310",
+							"path": [
+								"start-workflow"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Send Signal",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:3310/send-signal/1c4a0d56-e017-11ec-975f-9ea7a3486136",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "3310",
+							"path": [
+								"send-signal",
+								"1c4a0d56-e017-11ec-975f-9ea7a3486136"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
