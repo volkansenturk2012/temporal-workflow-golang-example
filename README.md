@@ -1,5 +1,6 @@
 # temporal-workflow-golang-example
 
+<p>Medium Link : https://alameddinc.medium.com/nedir-bu-temporal-io-680f3b242136 </p>
 <h1>Running temporal service</h1>
 cd /var/www/temporal-workflow-golang-example/engine<br />
 docker-compose up<br />
